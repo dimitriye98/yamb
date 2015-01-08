@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/DimitriyeUtil"/>
+	<classpathentry kind="lib" path="/Users/Dimitriye98/Documents/workspace/libraries/guava/guava-18.0.jar" sourcepath="/Users/Dimitriye98/Documents/workspace/libraries/guava/guava/src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
