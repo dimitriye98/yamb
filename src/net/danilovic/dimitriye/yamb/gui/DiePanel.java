@@ -24,7 +24,7 @@ public class DiePanel extends JPanel {
 	
 	private static ImageIcon imageGet(Die die) {
 		try {
-			return new ImageIcon(ImageIO.read(DiePanel.class.getResource("/net/danilovic/dimitriye/yamb/images/die" + die.getValue() + ".png")).getScaledInstance(64, 64, Image.SCALE_DEFAULT));
+			return new ImageIcon(ImageIO.read(DiePanel.class.getResource("/die" + die.getValue() + ".png")).getScaledInstance(64, 64, Image.SCALE_DEFAULT));
 		} catch (IOException e) {
 			throw new RuntimeException(e);
 		}
